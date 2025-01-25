@@ -1,69 +1,81 @@
+
 body {
-  font-family: 'Inter', sans-serif;
-  margin: 20px;
-  background-color: #f9f9f9;
-  color: #444;
-  line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #444;
+    background-color: #f9f9f9;
+    padding: 20px;
 }
 
+
 h1 {
-  text-align: center;
-  color: #222;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  text-transform: capitalize;
+    text-align: center;
+    color: #222;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 h2 {
-  margin-top: 30px;
-  color: #333;
-  font-size: 1.8rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
+    margin-top: 40px;
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
 }
+
 
 p {
-  color: #555;
-  line-height: 1.8;
-  margin-bottom: 15px;
-  font-size: 1rem;
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
 }
 
+
 ul {
-  list-style-type: disc;
-  padding-left: 25px;
-  margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 li {
-  margin-bottom: 10px;
-  color: #555;
-  font-size: 1rem;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #555;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.nickname {
+    font-style: italic;
+    color: #007BFF;
+    font-weight: 600;
+}
+
+
 a {
-  color: #007BFF;
-  text-decoration: none;
-  font-weight: 500;
+    text-decoration: none;
+    color: #007BFF;
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: #007BFF;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #0056b3;
+    text-decoration: underline;
 }
